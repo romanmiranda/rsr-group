@@ -1,0 +1,30 @@
+{
+    "name": "roman/rsrphp",
+    "description": "RSR API wrapper for PHP",
+    "type": "library",
+    "require": {
+        "php": "^8.0.0",
+        "larapack/dd": "^1.1",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RomanMiranda\\RsrGroup\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roman Miranda",
+            "email": "romanalberto.m@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
