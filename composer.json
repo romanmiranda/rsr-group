@@ -1,5 +1,5 @@
 {
-    "name": "romanmiranda/rsrgroup",
+    "name": "romanmiranda/rsr-group",
     "description": "RSR API wrapper for PHP",
     "type": "library",
     "require": {
